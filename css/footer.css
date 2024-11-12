@@ -1,0 +1,153 @@
+.footer__container {
+    padding-inline: 70px;
+    background-color: #272727;
+    border-radius: 30px 30px 0 0;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 44px;
+
+}
+
+.connect h2 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.connect a {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #FD853A;
+    padding: 14px 33px;
+    border-radius: 60px;
+}
+
+.connect a i {
+    font-size: 30px;
+}
+
+.footer__content {
+    display: flex;
+    gap: 18px;
+    padding-block: 55px;
+    border-block: 1px solid #fff;
+}
+
+.footer__content .h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FD853A;
+    margin-bottom: 28px;
+}
+
+.footer__logo {
+    width: fit-content;
+    margin-bottom: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media__section p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 34px;
+}
+
+.media__section .icon {
+    display: flex;
+    gap: 5px;
+}
+
+.media__section .icon i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navegation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.navegation ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.navegation ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer__contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__contact ul li {
+    font-size: 16px;
+    color: #fff;
+}
+
+.email {
+    padding-left: 14px;
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.email button {
+    height: 100%;
+    padding: 16px 13px;
+    border: none;
+    background-color: #FD853A;
+    border-radius: 0 10px 10px 0;
+cursor: pointer;
+}
+#email {
+    width: 258px;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+#email::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.email button i {
+    font-size: 20px;
+    color: #fff;
+}
+.team__copy {
+    padding-block: 55px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.team__copy p {
+    font-size: 20px;
+color: #fff;
+}
+.user__privace a {
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.user__privace a:hover {
+    color: #FD853A;
+}
+.user__privace span {
+padding-inline: 2px;
+font-size: 20px;
+color: #fff;
+}

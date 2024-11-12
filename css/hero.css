@@ -1,0 +1,161 @@
+.hero {
+    height: calc(100vh - 164px);
+    position: relative;
+    padding-inline: 71px;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    bottom: 0;
+    left: 320px;
+    border: 50% 50% 0 0;
+    z-index: 1;
+}
+
+.girl {
+    position: absolute;
+    bottom: -2px;
+    left: 35%;
+    z-index: 3;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 365px;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+
+.content h5 {
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #171717;
+    padding: 9px 25px;
+    border-radius: 38px;
+    display: inline-block;
+    color: #171717;
+}
+
+.content h1 {
+    font-size: 95px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-top: 10px;
+    color: #171717;
+}
+
+.content h1 span {
+    color: #FD853A;
+
+}
+
+.svg_1 {
+    position: absolute;
+    top: -20px;
+    left: 56%;
+    z-index: 10;
+}
+
+.svg_2 {
+    position: absolute;
+    left: -10%;
+    bottom: -63px;
+}
+
+.pera__box {
+    position: absolute;
+    left: 71px;
+    bottom: 335px;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+
+.pera__box p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #171717;
+    margin-top: 24px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 46px;
+    left: 38%;
+    z-index: 4;
+    height: 82px;
+    width: 367px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    backdrop-filter: blur(10px);
+}
+
+.buttons .btn {
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    padding: 10px 17px;
+    transition: all .5s;
+}
+
+.buttons .btn2 i {
+    margin-left: 12px;
+    font-size: 30px;
+    display: none;
+}
+
+.buttons .btn2:hover i {
+    display: inline-block;
+}
+
+.active:hover {
+    padding: 14px 32px;
+    background-color: #FD853A;
+    font-weight: 500;
+    border-radius: 60px;
+}
+
+.deactive {
+    padding: 14px 32px;
+    background-color: #FD853A;
+    font-weight: 500;
+    border-radius: 60px;
+}
+.afr {
+    background-color: transparent;
+}
+
+.rating__box {
+    text-align: right;
+    position: absolute;
+    right: 71px;
+    bottom: 341px;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+.rating__box h2 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 100%;
+    color: #171717;
+    margin-top: 21px;
+
+}
+.rating__box h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #171717;
+    margin-top: 5px;
+}
+.bg__stekar {
+    position: absolute;
+    z-index: 2;
+    bottom: 210px;
+    left: 38%;
+    height: 230px;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}

@@ -1,0 +1,123 @@
+.portfolio__container {
+    padding: 97px 75px;
+}
+
+.portfolio__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.portfolio__header h2 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #344054;
+
+}
+
+.portfolio__header h2 span {
+    color: #FD853A;
+}
+
+.portfolio__header a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 40px;
+    background-color: #FD853A;
+    border-radius: 60px;
+}
+
+.portfolio__slider {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.lirant {
+    background-image: url(slider\ img.png);
+    width: 633px;
+    height: 371px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.lirant button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #FD853A;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.lirant button i {
+    font-size: 30px;
+    color: #FD853A;
+    transition: all 0.5s ease;
+}
+
+.lirant .lirant__box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 90%;
+    transform: translateY(90px);
+    transition: all 0.2s cubic-bezier(0.49, 0, 0, 1.23);
+}
+
+.lirant .lirant__box h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.lirant .lirant__box p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.lirant:hover button {
+    background-color: #FD853A;
+}
+
+.lirant:hover button i {
+    color: #fff;
+}
+
+.lirant:hover .lirant__box {
+    transform: none;
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.portfolio__capsuls {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.portfolio__capsuls a {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 32px;
+    color: #344054;
+    background-color: #F2F4F7;
+    border-radius: 24px;
+    transition: all 0.5s ease;
+}
+
+.portfolio__capsuls a:hover {
+    background-color: #FD853A;
+    color: #fff;
+}

@@ -1,0 +1,69 @@
+header {
+    padding-inline: 71px;
+    padding-block: 40px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171717;
+    border-radius: 50px;
+    padding: 10px;
+}
+nav .manu {
+    display: flex;
+    gap: 14px;
+
+}
+nav .manu a {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 60px;
+    transition: all 0.3s;
+}
+nav .manu a:hover {
+    background-color: rgb(83, 83, 83);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.logo .logo__text {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.logo__hover__text {
+    display: none;
+}
+.logo__hover__text h5 {
+font-weight: 400;
+}
+.logo__hover__text h3 {
+    font-weight: 500;
+}
+.logo:hover .logo__hover__text {
+    display: block;
+    color: #fff;
+}
+.logo:hover .logo__text {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

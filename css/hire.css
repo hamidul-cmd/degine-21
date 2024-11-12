@@ -1,0 +1,70 @@
+.hire__container {
+    padding-block: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f4f7;
+    border-radius: 50px;
+}
+.hire__img {
+    position: relative;
+}
+.hire__content h2 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #FD853A;
+    line-height: 100%;
+    margin-bottom: 47px;
+}
+.hire__content h2 span {
+    color: #344054;
+}
+.hire__content p {
+    font-size: 20px;
+    color: #98A2B3;
+    margin-bottom: 47px;
+}
+.project {
+    display: flex;
+    gap: 176px;
+    margin-bottom: 47px;
+}
+.project h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #344054;
+}
+.project h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #98A2B3;
+}
+.hire__content a {
+    font-size: 32px;
+    font-weight: 600;
+    color: #151515;
+    padding: 33px 60px;
+    border: 1px solid #151515;
+    border-radius: 32px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+.hire__content a:hover {
+    background-color: #151515;
+    color: #fff;
+}
+.hire__girl {
+    position: relative;
+    z-index: 2;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+
+.sercal__bg {
+    position: absolute;
+    height: 200px;
+    left: 30%;
+    top: 30%;
+    z-index: 1;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}

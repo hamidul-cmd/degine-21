@@ -1,0 +1,139 @@
+.service .container {
+    background-image: url(Frame\ 58.png);
+    background-repeat: no-repeat;
+    padding: 116px 70px 51px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 50px 50px;
+}
+.service .container::after {
+    content: url(Frame\ 65.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.service__titel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+    position: relative;
+    z-index: 2;
+}
+.service__titel h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #fff;
+}
+.service__titel h2 span {
+    color: #FD853A;
+}
+.service__titel p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.service__slider {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+    z-index: 10;
+}
+.service__slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+.slider__box {
+    position: relative;
+    min-width: 416px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    border: 2px solid #F9FAFB; /* Ensure stacking context */
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.slider__box:hover, .slider__box:hover .arrow {
+    background-color: #FD853A;
+}
+.slider__box:hover .img1, .slider__box:hover .img2, .slider__box:hover .img3 {
+    transform: scale(1.1);
+}
+.slider__box h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    padding: 44px 37px 23px;
+    border-bottom: 1px solid #F9FAFB;
+}
+.img1 {
+    position: relative;
+    z-index: 4;
+    margin-top: 93px;
+    width: 100%;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+.img2 {
+    position: absolute;
+    bottom: 4px;
+    left: 21px;
+    z-index: 2;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+.img3 {
+    position: absolute;
+    left: 44px;
+    bottom: 22px;
+    z-index: 3;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+}
+.arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 10; /* Make sure this is the highest */
+    height: 114px;
+    width: 114px;
+    border-radius: 50%;
+    background-color: #1D2939;
+    display: flex; /* Background to see it clearly */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s cubic-bezier(0.49, 0, 0, 1.23);
+    cursor: pointer;
+}
+.arrow i {
+    padding: 42px;
+    font-size: 50px;
+    color: #fff;
+}
+.left__btn, .right__btn {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+.left__btn i, .right__btn i {
+    font-size: 25px;
+}
+.left__btn {
+    left: 0;
+    top: 60%;
+}
+.right__btn {
+    right: 0;
+    top: 60%;
+}
